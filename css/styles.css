@@ -1,0 +1,114 @@
+    /*CUATOM STYLES*/
+
+        /*ESTILOS DEL HEADER*/
+
+/* .container-fluid.custom__container{
+    background-image: url(../img/arg1.jpg);
+    background-size: contain;
+    background-repeat:space;
+} */
+
+.container-fluid img.logo{
+    height: 40vh;
+}
+
+.container-fluid h1.title{
+    font-size: 2.0em;
+    font-style: italic;
+    font-family: fantasy;
+}
+
+
+
+            
+
+                /*ESTILOS DE LA NAVBAR*/
+
+
+/* .navbar div.custom{
+    justify-content:space-around;
+} */
+
+
+
+        /*ESTILOS DEL MENU PRINCIPAL*/
+
+        /*BIENVENIDA Y QUIENES SOMOS*/
+
+
+
+
+section img{
+        border-radius: 2em;
+}
+
+article p.text-justify{
+    text-align: justify;
+}
+
+
+        /*NUESTROS VIAJES*/
+
+.container div.arg{
+    background-image: url(../img/arg1mini2.jpg);
+    width: 300px;
+    height: 169px;
+    border-radius: 2em;
+   
+}
+
+.container div.bra{
+    background-image: url(../img/Brasil1.1mini.jpg);
+    width: 300px;
+    height: 169px;
+    border-radius: 2em;
+   
+}
+
+.container div.pru{
+    background-image: url(../img/peru1.0mini.jpg);
+    width: 300px;
+    height: 169px;
+    border-radius: 2em;
+    
+}
+
+.container div.spn{
+    background-image: url(../img/barcelona1.0mini.jpg);
+    width: 300px;
+    height: 169px;
+    border-radius: 2em;
+   
+} 
+
+    .container div a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.6em;
+}
+
+
+        /*CONTACTANOS*/
+
+
+
+
+
+
+
+
+
+        /*FOOTER*/
+
+
+.pie img{
+    border-radius: 5em;
+    margin-bottom: 1em;
+}
+
+
+
+
+
+
+

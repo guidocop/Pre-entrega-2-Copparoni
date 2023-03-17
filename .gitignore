@@ -1,0 +1,54 @@
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+
+#carpeta de bootstrap
+bootstrap-5.2.3-dist
+
+#images
+1.png
+1pie.png
+2.png
+6miles.jpg
+Brasil1.1mini.jpg
+Brasil1.JPG
+Ischi1.JPG
+arg1.jpg
+arg1mini2.jpg
+barcelona1.0.jpg
+barcelona1.0mini.jpg
+barcelona1.jpg
+bolson.jpg
+carachi.JPG
+peru1.0mini.jpg
+peru1.jpg
+pqsaavedramini2.jpg
+praga.jpg
+praga2.0.1.jpg
+praga2.0.jpg
+tintin1.jpg
+uquia fondo.JPG
+        
+
+
+
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocodegit
