@@ -1,5 +1,6 @@
     /*CUATOM STYLES*/
 
+
         /*ESTILOS DEL HEADER*/
 
 /* .container-fluid.custom__container{
@@ -24,10 +25,16 @@
 
                 /*ESTILOS DE LA NAVBAR*/
 
+.custom_navbar{
+    display: flex;
+    justify-content: center;
+}
 
-/* .navbar div.custom{
-    justify-content:space-around;
-} */
+
+
+
+
+
 
 
 
@@ -44,6 +51,10 @@ section img{
 
 article p.text-justify{
     text-align: justify;
+}
+.custom_article a{
+    text-decoration: none;
+
 }
 
 
@@ -105,6 +116,11 @@ article p.text-justify{
     border-radius: 5em;
     margin-bottom: 1em;
 }
+.pie a{
+    text-decoration: none;
+    color: white;
+}
+
 
 
 

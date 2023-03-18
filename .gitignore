@@ -47,6 +47,11 @@ praga2.0.1.jpg
 praga2.0.jpg
 tintin1.jpg
 uquia fondo.JPG
+
+
+#text files
+*.txt 
+
         
 
 

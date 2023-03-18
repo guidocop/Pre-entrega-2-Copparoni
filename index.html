@@ -31,7 +31,7 @@
 
   
     
-  <header class="container-fluid custom__container d-flex flex-column justify-content-center align-items-center">
+  <header id="arriba" class="container-fluid custom__container d-flex flex-column justify-content-center align-items-center">
       <img src="./img/Logo 2.0.png" class="logo" alt="Logo">
       <h1 class="title text-center p-2">Blog de viaje</h1>
   </header>    
@@ -44,24 +44,26 @@
     
     <!--BARRA DE NAVEGACIÓN-->
 
+
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse d-flex justify-content-evenly" id="navbarNavDropdown">
+        <div class="collapse navbar-collapse custom_navbar" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Quienes Somos</a>
+              <a class="nav-link" href="./nosotros.html">Quienes somos</a>
             </li>
+            
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Nuestros viajes
+                Viajes
               </a>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu dropdown-menu-dark">
                 <li><a class="dropdown-item" href="#">Argentina</a></li>
                 <li><a class="dropdown-item" href="#">Brasil</a></li>
                 <li><a class="dropdown-item" href="#">Perú</a></li>
@@ -69,12 +71,13 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contactanos</a>
+              <a class="nav-link" href="#contactanos">Contactanos</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+
             
 
     <!--BIENVENIDA-->
@@ -101,9 +104,10 @@
           <img  src="./img/praga2.0.1mini.jpg" class="img-fluid pt-4 pb-4">
         </div>
         <div class="col-sm-9 col-xl-7 col-xxl-6 d-flex justify-content-center">
-          <article>
+          <article class="custom_article">
             <h2 class="text-center">Quienes somos</h2>
-              <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ut ratione deleniti corrupti qui, dolores unde mollitia placeat porro quae dolore nemo, amet quasi quis rem minima expedita consequuntur! Vero accusamus officiis iusto, dolor ad nemo aliquid ex deserunt ut saepe, eaque sapiente. Nam inventore odit atque, corporis minima rerum labore vitae voluptas quia similique sunt dolor, doloribus libero saepe dolorum eum delectus aperiam pariatur tenetur amet, dignissimos excepturi ea! Nostrum cum nam fuga voluptate distinctio accusamus doloribus in beatae sunt maxime, hic quaerat, laudantium dolor nesciunt dolores numquam natus ipsa adipisci asperiores placeat iure dignissimos possimus dolorem quam. Quisquam?</p>
+              <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus illo ipsa libero vitae. Aspernatur minus id ut suscipit nisi iusto facilis est enim. Cum ipsa, ea architecto ad vitae eum nulla iusto. Architecto quia sunt quibusdam excepturi sit! Consectetur repellendus neque quisquam aperiam mollitia maxime? Necessitatibus facere libero eos sapiente.</p>
+              <a href="">Seguir leyendo</a>
           </article>
         </div>
       </div>
@@ -146,11 +150,48 @@
 
     <!--CONTACTO-->
 
-  <section class="container p-5 mb-5 d-flex flex-column align-items-center">
+
+<section class="container-fluid">
+  
+
+  <div class="row mb-5 d-flex flex-column align-items-center">
+    <h2 class="mb-5 text-center">Contactanos</h2>
+    
+    <div class="col-10 col-md-8">
+        <form id="contactanos" action="">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ejemplo@gmail.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu mensaje</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+       <div class="row">
+        <div class="mb-3">
+          <div class="col-3 col-lg-2">
+          <input type="button" class="form-control btn btn-dark" id="exampleFormControlInput1" value="Enviar"></input>
+        </div>
+        </div>
+        </form>    
+    </div>
+  </div>
+</section>
+
+
+  <!-- <section class="container p-5 mb-5 d-flex flex-column align-items-center">
     
     <h2 class="mb-5">Contactanos</h2>
       
-        <form action="">
+        <form id="contactanos" action="">
           
           <input type="text" placeholder="Nombre">
           <input type="text" placeholder="Apellido">
@@ -163,7 +204,7 @@
     
   </section>
 
-</main>    
+</main>     -->
 
     <!--FIN CONTENIDO PRINCIPAL-->
 
@@ -183,7 +224,7 @@
 
     <div class="col-sm-7 col-md-5 pie p-4 d-flex flex-column justify-content-center align-items-center">
       <img src="./img/Logo 2.0pie.png">
-      <span>Ir arriba</span>
+      <a href="#arriba">Ir arriba</a>
     </div>
 
   </div>
