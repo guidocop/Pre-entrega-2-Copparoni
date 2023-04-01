@@ -1,0 +1,145 @@
+/*GOOGLE FONTS*/
+@import url("https://fonts.googleapis.com/css2?family=Dosis&family=Gloria+Hallelujah&family=Rochester&display=swap");
+.custom__header img {
+  height: 40vh;
+}
+.custom__header h1 {
+  font-family: "Rochester", sans-serif;
+  font-size: 2.5em;
+}
+
+.custom_navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.arg_title_inicio {
+  padding-top: 5em;
+  height: 25em;
+  background-image: url(../img/volcan.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.custom_inicio img {
+  border-radius: 5em;
+}
+
+.custom_article_inicio p {
+  text-align: justify;
+}
+.custom_article_inicio a {
+  padding: 0.5em 1em;
+  border-radius: 0.8em;
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  font-size: 0.9em;
+}
+.custom_article_inicio a:hover {
+  color: #808080;
+}
+.custom_article_inicio h2 {
+  font-family: Dosis, sans-serif;
+  text-transform: uppercase;
+}
+
+.custom_viajes h2 {
+  font-family: Dosis, sans-serif;
+  text-transform: uppercase;
+}
+
+.playlist {
+  margin-left: 8em;
+  margin-right: 8em;
+  border: 1px solid #000;
+  border-radius: 2em;
+  text-align: center;
+}
+.playlist p {
+  font-size: 1.2em;
+  color: #000;
+}
+.playlist i {
+  margin-bottom: 0.5em;
+  font-size: 2.5em;
+  color: #000;
+}
+
+@media screen and (max-width: 576px) {
+  .playlist {
+    margin-left: 3.5em;
+    margin-right: 3em;
+    border: 1px solid #000;
+    border-radius: 2em;
+    text-align: center;
+  }
+  .playlist p {
+    font-size: 0.9em;
+    color: #000;
+  }
+  .playlist i {
+    font-size: 1.5em;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .playlist {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+  .playlist p {
+    font-size: 1.1em;
+  }
+  .playlist i {
+    font-size: 2em;
+  }
+}
+.pie img {
+  border-radius: 5em;
+  margin-bottom: 1em;
+}
+.pie a {
+  text-decoration: none;
+  color: white;
+}
+
+.arg_title {
+  padding-top: 5em;
+  width: 100%;
+  height: 20em;
+  background-image: url(../img/hornocal.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.arg_title h2 {
+  font-size: 2.5em;
+  font-family: Gloria Hallelujah, sans-serif;
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.arg_title h2:hover {
+  opacity: 0.6;
+}
+
+.custom_arg img {
+  border-radius: 5em;
+}
+
+.custom_article_arg a {
+  text-decoration: none;
+  font-family: Dosis, sans-serif;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  color: rgb(162, 9, 9);
+}
+.custom_article_arg a span {
+  text-transform: none;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=style.css.map */

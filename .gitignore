@@ -24,6 +24,11 @@
 #carpeta de bootstrap
 bootstrap-5.2.3-dist
 
+#carpetas gral
+.vscode
+backup css
+scss
+
 #images
 1.png
 1pie.png
@@ -32,13 +37,13 @@ bootstrap-5.2.3-dist
 6milesslide.jpg
 Brasil1.1mini.jpg
 Brasil1.JPG
-Ischi1.JPG
+
 
 arg1mini2.jpg
 barcelona1.1.jpg
 barcelona1.0mini.jpg
 barcelona1.jpg
-bolson.jpg
+
 carachi.JPG
 peru1.1.jpg
 peru1.0mini.jpg
@@ -47,7 +52,7 @@ pqsaavedramini2.jpg
 praga.jpg
 praga2.0.1.jpg
 praga2.0.jpg
-tintin1.jpg
+
 uquia fondo.JPG
 bienvenida.jpg
 
