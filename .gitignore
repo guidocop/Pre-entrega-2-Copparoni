@@ -24,6 +24,11 @@
 #carpeta de bootstrap
 bootstrap-5.2.3-dist
 
+#carpetas gral
+.vscode
+backup css
+scss
+
 #images
 1.png
 1pie.png
