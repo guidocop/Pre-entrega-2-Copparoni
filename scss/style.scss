@@ -1,0 +1,322 @@
+@import "partials/fonts";
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/bucles";
+
+//ESTILOS DEL HEADER//
+
+.custom__header{
+    img{
+        height: 40vh;
+    }
+    h1{
+        font-family: "Rochester", sans-serif;
+        font-size: $medium;
+    }
+}
+
+
+//ESTILOS DE LA NAVBAR//
+
+.custom_navbar{
+    display: flex;
+    justify-content: center;
+}
+
+
+//ESTILOS DEL MENU PRICIPAL//
+
+//BIENVENIDA Y QUIENES SOMOS//
+
+.arg_title_inicio{
+    padding-top: 5em;
+    @include sizes(100%,25em);
+    &:hover{
+        cursor: pointer;
+        @include sizes(100%,35em);
+                 transition: all 2s ease-in-out;
+    }
+    background-image: url(../img/volcan.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+@keyframes boton{
+    0%{
+        border: 1.5px dashed black;
+        opacity: 0.3;
+    }
+    50%{
+        border: 1.5px dashed black;
+        opacity:1;
+    }    
+    100%{
+        border: 1.5px dashed black;
+        opacity: 0.3;
+    }
+}
+
+hr{
+    width: 40%;
+    height:2px;
+    background-color: black;
+    opacity: 1;
+    margin: 3% 30%;
+}
+
+.custom_inicio{
+    img{
+        border-radius: 5em;
+    }
+}
+.custom_article_inicio{
+    p{
+        text-align: justify;
+        font-size: $small;
+    }
+    a{
+        border-radius: 0.8em;
+        text-decoration: none;
+        color:black;
+        font-size: $xsmall;
+        font-style: italic;
+        &:hover{
+            padding: 0.5em 1em;
+            animation: boton 1s ease-in-out 0s infinite;
+        }
+    
+    }
+    h2{
+        font-family: Gloria Hallelujah, sans-serif;
+        text-transform: uppercase;
+    }
+}
+
+
+
+//NUESTROS VIAJES POR AHORA NADA//
+
+.custom_viajes{
+    h2{
+        font-family: Gloria Hallelujah, sans-serif;
+        text-transform: uppercase;
+    }
+}
+
+
+
+//PLAYLIST//
+
+
+.playlist{
+    margin-left: 8em;
+    margin-right: 8em;
+    border: 1px solid #000;
+    border-radius: 2em;
+    text-align: center;
+    p{
+        font-size: $small;
+        color:#000;
+    }
+    i{
+        margin-bottom: 0.5em;
+        font-size: $medium;
+        color:#000;
+        &:hover{
+            cursor: pointer;
+            color:  #1DB954;
+            transform: rotate(360deg) scale(1.5) ;
+            transition: all 2s;
+        }
+    }
+}
+
+
+
+
+
+//FOOTER//
+
+
+.redes{
+    i{
+        color: $redes;
+        
+    }
+    .fcb:hover{
+            color: $facebook;
+        }
+        .ins:hover{
+            color: $instagram;
+        } 
+        .ytb:hover{
+            color: $youtube;
+        }
+        .twi:hover{
+            color: $twitter;
+        }           
+    }
+
+@keyframes latidogiro{
+    0%{
+        transform: rotate(-25deg);
+    }
+    50%{
+        transform: rotate(25deg) scale(1.1);
+    }
+    100%{
+        transform: rotate(-25deg);
+    }
+}    
+
+
+
+.pie{
+    img{
+        border-radius: 5em;
+        margin-bottom: 1em;
+        &:hover{
+            cursor: pointer;
+            animation: latidogiro 1.5s ease-in-out infinite;
+        }
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+
+    //PAGINA NOSOTROS//
+    
+    
+    
+    
+    
+    
+    .contenedor-tarjetas{
+        width:100%;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(2,1fr);   
+        .tarjeta{
+            margin:4em 2em;
+        border-radius: 3em;
+        // background-color: rgb(41, 165, 51);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        .tarjeta-img{
+            margin-top:3em;
+            img{
+                border-radius: 8em;
+                }
+        }
+        .tarjeta-titulo{
+            margin-top: 1em;
+            h4{
+                font-size: $medium;
+                font-family: Gloria Hallelujah, sans-serif; 
+                color: whitesmoke;
+            }
+        }
+        .tarjeta-content{
+            padding: 1em 3em;
+            text-align: center;
+            font-size: $small;
+            color:whitesmoke;
+        }
+    }
+}
+
+.juntos-container{
+    width:100%;
+    margin-top: 3em;
+    padding: 2em 0;
+    img{
+        border-radius: 8em;
+        margin-bottom: 3em;
+    }
+    article{
+        margin: 2em 3em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h4{
+          margin-bottom: 1em;  
+          font-size: $medium;
+          font-family: Gloria Hallelujah, sans-serif;  
+        }
+        p{
+            width: 80%;
+            text-align: justify;
+            font-size: $small;
+        }
+    }
+}
+
+
+
+@import "partials/queries";
+
+
+
+
+
+
+
+
+
+
+//PAGINA ARGENTINA//
+
+            .arg_title{
+                padding-top: 5em;
+            @include sizes(100%,20em);
+            &:hover{
+                @include sizes(100%,30em);
+                transition: all 2.5s ease-in-out;
+            }
+            background-image: url(../img/hornocal.jpg);
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-position: center;
+            h2{
+                font-size: $medium;
+                font-family: Gloria Hallelujah, sans-serif;
+                font-weight: bold;
+                color: #000;
+                text-transform: uppercase;
+                cursor: pointer;
+                &:hover{
+                    opacity: .6;
+                }
+            }
+        }
+        
+        
+        .custom_arg{
+            img{
+                border-radius: 5em;
+            }
+        }
+       
+        .custom_article_arg{
+            a{
+                text-decoration: none;
+                font-family: Dosis, sans-serif;
+                font-size: $xsmall;
+                text-transform: uppercase;
+                color: rgb(162, 9, 9);
+                span{
+                    text-transform: none;
+                    font-size: 1.1em;
+                    font-style: italic;
+                }
+            }
+            p{
+                font-size: $small;
+             }
+        }

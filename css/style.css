@@ -316,14 +316,17 @@ hr {
 .custom_article_arg a {
   text-decoration: none;
   font-family: Dosis, sans-serif;
-  font-size: 0.9em;
+  font-size: 1em;
   text-transform: uppercase;
   color: rgb(162, 9, 9);
 }
 .custom_article_arg a span {
   text-transform: none;
-  font-size: 1.3em;
+  font-size: 1.1em;
   font-style: italic;
+}
+.custom_article_arg p {
+  font-size: 1.3em;
 }
 
 /*# sourceMappingURL=style.css.map */
